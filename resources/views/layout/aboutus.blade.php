@@ -18,7 +18,7 @@
 body{
             padding: 0;
             margin: 0;
-            background-image: url(Wood.jpg);
+            background-image: url(/images/Wood.jpg);
             background-size: fixed;
         }
      html {
@@ -125,7 +125,7 @@ html, body, .hero {
                     top: 45%;
                  }
                  body{
-                       background-image: url(bg.jpg);
+                       background-image: url(/images/bg.jpg);
                  }
                  .about-image:hover{
                     outline: 10px solid #d3325f;
@@ -185,16 +185,16 @@ html, body, .hero {
     }
 
     .map{
-      background-image: url(bg.jpg); 
+      background-image: url(/images/bg.jpg); 
     }
     h4{
       text-align: center;
-      background-image: url(bg.jpg);
+      background-image: url(/images/bg.jpg);
       padding-bottom: 10px;
     }
 
     .form{
-      background-image: url(food.png); 
+      background-image: url(/images/food.png); 
     }
 
     #ya{
@@ -279,13 +279,13 @@ ul{
     <nav role='navigation' id="mainnav">
     <br><br><br>
   <ul class="gap">
-    <li><a href="#?" style="color: #99ff99;">HOME</a></li>
-    <li><a href="#?" style="color: #99ff99;">MENU</a></li>
+    <li><a href="/home" style="color: #99ff99;">HOME</a></li>
+    <li><a href="/menu" style="color: #99ff99;">MENU</a></li>
     <li><a href="#?" style="color: #99ff99;">OFFERS</a></li>
-    <li><a href="#?" style="color: #99ff99;">SIGN-UP</a></li>
-    <li><a href="#?" style="color: #99ff99;">LOG-IN</a></li>
+    <li><a href="/form" style="color: #99ff99;">SIGN-UP</a></li>
+    <li><a href="/form" style="color: #99ff99;">LOG-IN</a></li>
     <li><a href="#?" style="color: #99ff99;">FEEDBACK</a></li>
-    <li><a href="#?" style="color: #99ff99;">ABOUT-US</a></li>
+    <li><a href="/blog" style="color: #99ff99;">ABOUT-US</a></li>
  
   </ul>
 </nav>  
@@ -303,15 +303,15 @@ ul{
                         <h1 class="text-uppercase display-3" style="color: #d3325f;text-align: center;"><b>About Us</b></h1>
                         <p class="text-muted" style="color: #ffffcc;font-size: 2em;text-align: center;">PIZZA makes anything possible. Anyone who can say money can-not buy the happiness has clearly
             never spent their money on PIZZA. Ideas are Like PIZZA DOUGH, made to be tossed around. </p>
-                    <center ><a href="#home" class="btn main-btn my-4 text-capitalize" style="color: white;background-color: #ff0066;">Learn More</a></center>
+                    <center ><a href="/blog" class="btn main-btn my-4 text-capitalize" style="color: white;background-color: #ff0066;">Learn More</a></center>
                         </div>
 
                         <div class="col-md-6 about-pictures my-4 d-none d-lg-block" style="padding-top: 30px;">
-                            <img src="images/image.jpg" alt="menu" class="img-1 img-thumbnail about-image"><br><br><br>
-                            <img src="images/photo.jpg" alt="menu" class="img-2 img-thumbnail about-image"><br><br><br>
-                           <img src="pizza.jpg" alt="menu" class="img-3 img-thumbnail about-image"><br><br><br>
-                         <img src="pizza-6.jpg" alt="menu" class="img-4 img-thumbnail about-image"><br><br><br>
-                          <img src="pizza-3.jpg" alt="menu" class="img-5 img-thumbnail about-image"><br><br><br> 
+                            <img src="/images/image.jpg" alt="menu" class="img-1 img-thumbnail about-image"><br><br><br>
+                            <img src="/images/photo.jpg" alt="menu" class="img-2 img-thumbnail about-image"><br><br><br>
+                           <img src="/images/pizza.jpg" alt="menu" class="img-3 img-thumbnail about-image"><br><br><br>
+                         <img src="/images/pizza-6.jpg" alt="menu" class="img-4 img-thumbnail about-image"><br><br><br>
+                          <img src="/images/pizza-3.jpg" alt="menu" class="img-5 img-thumbnail about-image"><br><br><br> 
                           
                 </div>
                 
@@ -327,7 +327,7 @@ ul{
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
-                                    <img src="person_1.jpg" alt="" class="rounded-circle review-img">
+                                    <img src="/images/person_1.jpg" alt="" class="rounded-circle review-img">
                                 </div>
                                 <div class="review-text px-5">
                                     <h2 class="text-capitalize mb-3 primary-color" style="color: #d3325f">CHEF <a class="mr-2 primary-color" href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#d3325f;padding-left: 15px;padding-top: 7px;padding-bottom: 10px;"></i></a></h2>
@@ -349,7 +349,7 @@ ul{
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
-                                    <img src="person_2.jpg" alt="" class="rounded-circle review-img">
+                                    <img src="/images/person_2.jpg" alt="" class="rounded-circle review-img">
                                 </div>
                                 <div class="review-text px-5">
                                     <h2 class="text-capitalize mb-3 primary-color" style="color: #d3325f">CHEF <a class="mr-2 primary-color" href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#d3325f;padding-left: 15px;padding-top: 7px;padding-bottom: 10px;"></i></a></h2>
@@ -371,7 +371,7 @@ ul{
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
-                                    <img src="person_3.jpg" alt="" class="rounded-circle review-img">
+                                    <img src="/images/person_3.jpg" alt="" class="rounded-circle review-img">
                                 </div>
                                 <div class="review-text px-5">
                                     <h2 class="text-capitalize mb-3 primary-color" style="color: #d3325f">CHEF <a class="mr-2 primary-color" href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#d3325f;padding-left: 15px;padding-top: 7px;padding-bottom: 10px;"></i></a></h2>
@@ -393,7 +393,7 @@ ul{
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
-                                    <img src="person_4.jpg" alt="" class="rounded-circle review-img">
+                                    <img src="/images/person_4.jpg" alt="" class="rounded-circle review-img">
                                 </div>
                                 <div class="review-text px-5">
                                     <h2 class="text-capitalize mb-3 primary-color" style="color: #d3325f">CHEF <a class="mr-2 primary-color" href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#d3325f;padding-left: 15px;padding-top: 7px;padding-bottom: 10px;"></i></a></h2>
